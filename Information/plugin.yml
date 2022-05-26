@@ -1,0 +1,24 @@
+name: Information
+main: info\Main
+api: 4.0.0
+author: ByPoliishy
+version: 0.1
+
+commands:
+  dc:
+    description: Discord Server
+    permission: dc.cmd
+  yt:
+    description: Youtube Channel 
+    permission: yt.cmd
+  tiktok:
+    description: TikTok Channel
+    permission: tiktok.cmd
+
+permissions: 
+  dc.cmd:
+    default: true
+  yt.cmd:
+    default: true
+  tiktok.cmd:
+    default: true
